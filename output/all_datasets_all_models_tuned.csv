@@ -1,0 +1,21 @@
+Feature Set,Classifier,Patient Accuracy (%),Patient Precision,Patient Recall,Patient F1-Score,Segment Accuracy (%)
+Time Domain (160 feat),Naïve Bayes,70.24,0.7941,0.6,0.6835,67.14
+Time Domain (160 feat),Tuned SVM (RBF),77.38,0.7826,0.8,0.7912,74.64
+Time Domain (160 feat),Tuned Random Forest,77.38,0.76,0.8444,0.8,74.76
+Time Domain (160 feat),Tuned XGBoost,79.76,0.7917,0.8444,0.8172,76.9
+Time Domain (160 feat),Tuned ANN (MLP),70.24,0.7083,0.7556,0.7312,69.64
+Frequency Domain (208 feat),Naïve Bayes,67.86,0.8462,0.4889,0.6197,67.5
+Frequency Domain (208 feat),Tuned SVM (RBF),73.81,0.7255,0.8222,0.7708,71.19
+Frequency Domain (208 feat),Tuned Random Forest,77.38,0.7708,0.8222,0.7957,76.55
+Frequency Domain (208 feat),Tuned XGBoost,80.95,0.8085,0.8444,0.8261,76.9
+Frequency Domain (208 feat),Tuned ANN (MLP),77.38,0.75,0.8667,0.8041,71.9
+Entropy Domain (80 feat),Naïve Bayes,70.24,0.7778,0.6222,0.6914,71.55
+Entropy Domain (80 feat),Tuned SVM (RBF),86.9,0.84,0.9333,0.8842,78.57
+Entropy Domain (80 feat),Tuned Random Forest,80.95,0.7959,0.8667,0.8298,76.79
+Entropy Domain (80 feat),Tuned XGBoost,79.76,0.78,0.8667,0.8211,77.38
+Entropy Domain (80 feat),Tuned ANN (MLP),83.33,0.8298,0.8667,0.8478,78.1
+Combined Features (448 feat),Naïve Bayes,69.05,0.8519,0.5111,0.6389,68.93
+Combined Features (448 feat),Tuned SVM (RBF),77.38,0.7826,0.8,0.7912,75.6
+Combined Features (448 feat),Tuned Random Forest,80.95,0.7843,0.8889,0.8333,78.93
+Combined Features (448 feat),Tuned XGBoost,80.95,0.7959,0.8667,0.8298,80.95
+Combined Features (448 feat),Tuned ANN (MLP),82.14,0.8261,0.8444,0.8352,75.48

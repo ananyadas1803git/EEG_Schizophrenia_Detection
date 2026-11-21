@@ -1,0 +1,21 @@
+Feature Set,Classifier,Patient Accuracy (%),Patient Precision,Patient Recall,Patient F1-Score,Segment Accuracy (%),Segment F1-Score
+Time Domain,Naïve Bayes,70.24,0.8125,0.5778,0.6753,67.14,0.6576
+Time Domain,SVM (RBF),76.19,0.766,0.8,0.7826,73.57,0.7618
+Time Domain,Random Forest,73.81,0.7556,0.7556,0.7556,73.69,0.7574
+Time Domain,XGBoost (XGB),80.95,0.8222,0.8222,0.8222,76.07,0.7764
+Time Domain,ANN (MLP),77.38,0.8095,0.7556,0.7816,72.74,0.7377
+Frequency Domain,Naïve Bayes,70.24,0.9167,0.4889,0.6377,67.5,0.6326
+Frequency Domain,SVM (RBF),77.38,0.7708,0.8222,0.7957,72.5,0.7492
+Frequency Domain,Random Forest,76.19,0.766,0.8,0.7826,75.83,0.7781
+Frequency Domain,XGBoost (XGB),79.76,0.8043,0.8222,0.8132,76.9,0.7877
+Frequency Domain,ANN (MLP),69.05,0.7317,0.6667,0.6977,67.38,0.69
+Entropy Domain,Naïve Bayes,70.24,0.7778,0.6222,0.6914,71.55,0.7131
+Entropy Domain,SVM (RBF),84.52,0.8333,0.8889,0.8602,78.81,0.809
+Entropy Domain,Random Forest,82.14,0.8,0.8889,0.8421,76.31,0.7849
+Entropy Domain,XGBoost (XGB),80.95,0.8085,0.8444,0.8261,76.07,0.7798
+Entropy Domain,ANN (MLP),79.76,0.8333,0.7778,0.8046,73.21,0.7381
+Combined Features,Naïve Bayes,69.05,0.8519,0.5111,0.6389,68.93,0.6632
+Combined Features,SVM (RBF),79.76,0.8043,0.8222,0.8132,75.83,0.7815
+Combined Features,Random Forest,80.95,0.7959,0.8667,0.8298,78.57,0.8065
+Combined Features,XGBoost (XGB),84.52,0.8478,0.8667,0.8571,80.0,0.8166
+Combined Features,ANN (MLP),78.57,0.8462,0.7333,0.7857,75.83,0.7659
