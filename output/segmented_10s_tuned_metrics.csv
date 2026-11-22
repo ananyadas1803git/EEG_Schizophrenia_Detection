@@ -1,0 +1,6 @@
+Model,Segment Accuracy (%),Patient Accuracy (%),Patient F1-Score,Segment Precision,Segment Recall (Sensitivity),Segment Specificity,Segment F1-Score,Segment ROC-AUC
+Tuned XGBoost,81.35,83.33,0.8444,0.8143,0.8444,0.7778,0.8291,0.8874
+Tuned Random Forest,78.37,80.95,0.8261,0.7805,0.8296,0.7308,0.8043,0.8537
+Tuned ANN (MLP),71.63,70.24,0.7253,0.7343,0.737,0.6923,0.7357,0.7927
+Naïve Bayes,69.64,71.43,0.7073,0.7696,0.6185,0.7863,0.6858,0.7573
+Tuned SVM (RBF),61.51,65.48,0.7238,0.5909,0.9148,0.2692,0.718,0.7259
