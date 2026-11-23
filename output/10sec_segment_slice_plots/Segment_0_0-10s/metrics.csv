@@ -1,0 +1,6 @@
+Segment,Model,Accuracy (%),Precision,Recall (Sensitivity),Specificity,F1-Score,ROC-AUC
+Segment 0 (0s – 10s),XGBoost,77.38,0.7955,0.7778,0.7692,0.7865,0.8467
+Segment 0 (0s – 10s),Random Forest,75.0,0.7609,0.7778,0.7179,0.7692,0.8071
+Segment 0 (0s – 10s),SVM (RBF),73.81,0.7674,0.7333,0.7436,0.75,0.7852
+Segment 0 (0s – 10s),Naïve Bayes,69.05,0.7436,0.6444,0.7436,0.6905,0.796
+Segment 0 (0s – 10s),ANN (MLP),60.71,0.6429,0.6,0.6154,0.6207,0.6849
