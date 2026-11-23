@@ -1,4 +1,4 @@
-# 🧠 Automated EEG-Based Schizophrenia Detection & Biomarker Discovery
+# 🧠 EEG-Based Schizophrenia Detection 
 
 An end-to-end signal processing, feature engineering, and machine learning framework for automated schizophrenia diagnosis from continuous 16-channel resting-state EEG recordings.
 
