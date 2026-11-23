@@ -194,4 +194,16 @@ To validate physiological plausibility and identify non-spurious biomarkers:
 │   ├── schizophrenia_10s_6segments.csv# 504 segmented rows (10s windows)
 │   ├── band_classification_plots/     # Visualizations for Delta, Theta, Alpha, Beta
 │   ├── segmented_10s_plots/           # Confusion matrices, ROC curves, bar charts
-│   └── segment_slice_plots/           #
+│   └── segment_slice_plots/           # Dedicated subfolders for each of the 6 time slices
+├── extract_features.py                # Extracts 448 continuous features per subject
+├── segment_6s_features.py             # Generates the 6s window multi-domain dataset
+├── compare_classifiers.py             # Pure segment benchmarking script
+├── tune_all_models.py                 # Automated 5-fold GroupKFold hyperparameter tuning
+├── segment_10s_features.py            # Generates the 10s window dataset
+├── tune_10s_segments.py               # Active tuning & evaluation for 10s segments
+├── compare_segment_slices.py          # Temporal slice comparison (0-10s to 50-60s)
+├── band_classification_pipeline.py    # Frequency band decomposition & domain-isolated tuning
+├── explainable_ai.py                  # Generates SHAP beeswarm and summary plots
+├── apply_pca.py                       # PCA projection and scree plots
+├── requirements.txt                   # Environment dependencies
+└── README.md                          # Project documentation
